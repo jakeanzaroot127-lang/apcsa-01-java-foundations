@@ -10,9 +10,9 @@
  */
 public class HelloYou {
     public static void main(String[] args) {
-        System.out.println("Jake Anzaroot");
-        System.out.println("Grade Twelve");
-        System.out.println("I like pizza time.");
+        System.out.println("=================");
+        System.out.println("||Jake Anzaroot||");
+        System.out.println("=================");
         
 
     }
