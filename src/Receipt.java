@@ -20,8 +20,8 @@
  */
 public class Receipt {
     public static void main(String[] args) {
-
-        // Your code here
+        System.out.println("================================ \n Item \t \t QTY \t Price \n =============================== \n Notebook");
+    
 
     }
 }
