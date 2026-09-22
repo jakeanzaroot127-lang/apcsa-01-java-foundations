@@ -20,7 +20,7 @@
  */
 public class Receipt {
     public static void main(String[] args) {
-        System.out.println("================================ \n Item \t \t QTY \t Price \n =============================== \n Notebook");
+        System.out.println("\n ================================ \n ITEM \t \t QTY \t PRICE \n ================================ \n Notebook \t 2 \t $4.50 \n Pens \t \t 1 \t $2.25 \n Backpack \t 1 \t $24.99 \n ================================ \n TOTAL \t \t \t $31.74");
     
 
     }
