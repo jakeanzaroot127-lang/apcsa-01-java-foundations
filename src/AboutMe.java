@@ -13,18 +13,18 @@
  */
 public class AboutMe {
     public static void main(String[] args) {
-        int favoriteNumber = 7;
-        double favoriteDecimal = 3.14;
+        int favoriteNumber = 5;
+        double favoriteDecimal = 5.56;
         boolean likesCoding = true;
-        char favoriteLetter = 'A';
-        String favoriteColor = "Blue";
+        char favoritePunctuation = '!';
+        String favoriteColor = "Green";
 
         final int MAX_ATTEMPTS = 3;
 
         System.out.println("Favorite number: " + favoriteNumber);
         System.out.println("Favorite decimal: " + favoriteDecimal);
         System.out.println("Likes coding: " + likesCoding);
-        System.out.println("Favorite letter: " + favoriteLetter);
+        System.out.println("Favorite Punctuation: " + favoritePunctuation);
         System.out.println("Favorite color: " + favoriteColor);
         System.out.println("Max attempts: " + MAX_ATTEMPTS);
     }
