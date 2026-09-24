@@ -13,10 +13,19 @@
  */
 public class AboutMe {
     public static void main(String[] args) {
+        int favoriteNumber = 7;
+        double favoriteDecimal = 3.14;
+        boolean likesCoding = true;
+        char favoriteLetter = 'A';
+        String favoriteColor = "Blue";
 
-        // Declare your variables here
+        final int MAX_ATTEMPTS = 3;
 
-        // Print them with labels here
-
+        System.out.println("Favorite number: " + favoriteNumber);
+        System.out.println("Favorite decimal: " + favoriteDecimal);
+        System.out.println("Likes coding: " + likesCoding);
+        System.out.println("Favorite letter: " + favoriteLetter);
+        System.out.println("Favorite color: " + favoriteColor);
+        System.out.println("Max attempts: " + MAX_ATTEMPTS);
     }
 }
