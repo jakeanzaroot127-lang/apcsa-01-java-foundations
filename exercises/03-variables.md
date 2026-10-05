@@ -37,11 +37,13 @@ No because there is a decimal so it is a double
 
 Think about your project idea. What are the five most important pieces of information it needs to store?
 
+Pay to play video games with sports players, influencers, and celebrities on public live streams where the audience could attempt to guess who will win, lose, the outcomes of the games, etc. in order to recieve rewards
+
 | # | What it stores | Type | Example value | Why this type |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
+| 1 | Streamers Email| | | |
+| 2 | Stremers pho num | | | |
+| 3 | Stremers  live | | | |
 | 4 | | | | |
 | 5 | | | | |
 
