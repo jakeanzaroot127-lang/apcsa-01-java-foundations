@@ -9,19 +9,13 @@
 public class BadVariables {
     public static void main(String[] args) {
 
-        int 2ndPlace = 5;
-
-        double price = "9.99";
-
-        boolean isReady = "true";
-
-        char grade = "A";
-
-        int class = 11;
-
-        String Name = "Sarah";
-
-        int student score = 95;
+        int secondPlace = 5;    //Identifiers cannot begin with a number
+        double price = 9.99;    //No parenthesis for a double
+        boolean isReady = true; //No parenthesis for a boolean
+        char grade = 'A';       //Use '' for characters instead of ""
+        int gradeLevel = 11;    //Cannot use a class as a variable
+        String name = "Sarah";  //Variables start with lowercase
+        int studentScore = 95;  //Use camelCase and connect them, All variables need to be a singular word
 
         System.out.println("If this runs, you fixed them all.");
     }
