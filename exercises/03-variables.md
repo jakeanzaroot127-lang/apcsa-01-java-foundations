@@ -41,12 +41,12 @@ Pay to play video games with sports players, influencers, and celebrities on pub
 
 | # | What it stores | Type | Example value | Why this type |
 |---|---|---|---|---|
-| 1 | Streamers Email| | | |
-| 2 | Stremers pho num | | | |
-| 3 | Stremers  live | | | |
-| 4 | | | | |
-| 5 | | | | |
+| 1 | Streamer's email | String | "player@email.com" | A string stores text, including letters and symbols in an email address |
+| 2 | Streamer's phone number | String | "7182301000" | A string stores phone numbers because they may contain symbols or leading zeros and are not used for calculation |
+| 3 | Streamer's  live stream status | boolean | true | A boolean stores either true or false to show whether a streamer is currently live |
+| 4 | Game entry fee | double | 7.50 | A double stores decimal numbers, which can represent the amount of money required to enter a game |
+| 5 | Number of viewers watching | int | 2500 | An int stores whole numbers, which is useful for counting viewers |
 
 **Is there anything your project needs to store that doesn't fit any of these types?**
 
-[your answer — this is a good question to be stuck on. It's usually a sign you need a *list* of something, or your own class. Both are coming.]
+Yes. My project needs to store a list of predictions from viewers, including who they think will win and whether their predictions were correct. A single String, int, double, or boolean cannot easily store all of that information together, so I may need to use a list or create my own class later.
